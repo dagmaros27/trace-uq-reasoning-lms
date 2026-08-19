@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-06-09T18:05:17Z",
+  "model": "Qwen/Qwen3-4B",
+  "model_short": "qwen3-4b",
+  "dataset": "trivia_qa",
+  "dataset_kind": "free_answer",
+  "split": "validation",
+  "n_questions": 1000,
+  "seed": 42,
+  "sample_temp": 0.7,
+  "top_p": 0.95,
+  "n_samples": 10,
+  "max_tokens": 6144,
+  "logprobs_k": 5,
+  "ptrue_logprobs_k": 20,
+  "logprob_mode": "summary",
+  "force_think_prefix": false,
+  "enable_thinking_kw": true,
+  "chat_template_kwargs": {
+    "enable_thinking": true
+  },
+  "split_strategy": "think_tags",
+  "true_token_ids": [
+    2514,
+    3007,
+    1866,
+    830
+  ],
+  "false_token_ids": [
+    4049,
+    3557,
+    3849,
+    895
+  ],
+  "finished_at": "2026-06-09T19:30:09Z",
+  "elapsed_seconds": 5091.618850469589,
+  "truncation_count": 127,
+  "parse_fail_count": 0
+}

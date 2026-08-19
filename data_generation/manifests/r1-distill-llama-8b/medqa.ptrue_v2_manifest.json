@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-06-08T09:13:10Z",
+  "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  "model_short": "r1-distill-llama-8b",
+  "source_jsonl": "/home/dagmawi_aims_ac_za/datagen/data/generations/medqa_r1-distill-llama-8b.jsonl",
+  "n_records": 1000,
+  "ptrue_logprobs_k": 20,
+  "max_tokens": 4096,
+  "true_token_ids": [
+    2575,
+    1904
+  ],
+  "false_token_ids": [
+    4139,
+    3934
+  ],
+  "prompt_change": "literal 'True'/'False' (no '(A)/(B)' letter prefix)"
+}

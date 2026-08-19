@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-06-16T02:29:28Z",
+  "model": "Qwen/QwQ-32B",
+  "model_short": "qwq-32b",
+  "dataset": "mmlu_pro",
+  "dataset_kind": "mcq",
+  "split": "test",
+  "n_questions": 500,
+  "seed": 42,
+  "sample_temp": 0.7,
+  "top_p": 0.95,
+  "n_samples": 10,
+  "max_tokens": 6144,
+  "logprobs_k": 5,
+  "ptrue_logprobs_k": 20,
+  "logprob_mode": "summary",
+  "force_think_prefix": false,
+  "enable_thinking_kw": false,
+  "chat_template_kwargs": {},
+  "split_strategy": "inline_cot",
+  "true_token_ids": [
+    2514,
+    3007,
+    1866,
+    830
+  ],
+  "false_token_ids": [
+    4049,
+    3557,
+    3849,
+    895
+  ],
+  "finished_at": "2026-06-16T16:55:12Z",
+  "elapsed_seconds": 51943.18873691559,
+  "truncation_count": 1001,
+  "parse_fail_count": 691
+}

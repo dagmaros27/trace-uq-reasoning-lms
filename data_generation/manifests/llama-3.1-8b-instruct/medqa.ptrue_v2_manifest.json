@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-06-08T09:41:48Z",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_short": "llama-3.1-8b-instruct",
+  "source_jsonl": "/home/dagmawi_aims_ac_za/datagen/data/generations/medqa_llama-3.1-8b-instruct.jsonl",
+  "n_records": 1000,
+  "ptrue_logprobs_k": 20,
+  "max_tokens": 4096,
+  "true_token_ids": [
+    2575,
+    3082,
+    1904,
+    837
+  ],
+  "false_token_ids": [
+    4139,
+    3641,
+    3934,
+    905
+  ],
+  "prompt_change": "literal 'True'/'False' (no '(A)/(B)' letter prefix)"
+}

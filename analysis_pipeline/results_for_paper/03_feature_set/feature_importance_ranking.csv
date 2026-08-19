@@ -1,0 +1,6 @@
+feature,rank_by_LOFO_rsn_mcq,median_delta_all,min_delta_all,max_delta_all,n_cells_pos_CI,n_cells_neg_CI,median_delta_rsn_mcq,min_delta_rsn_mcq,max_delta_rsn_mcq,median_single_feat_auroc,max_single_feat_auroc
+rep_5,1,0.0038,-0.0033,0.0664,4,0,0.0248,-0.0006,0.0664,0.6204,0.8003
+hedging_formal,2,0.0109,-0.0018,0.0345,4,0,0.0152,0.01,0.0345,0.5973,0.6836
+trace_divergence,3,0.0203,-0.0005,0.1459,7,0,0.0018,-0.0005,0.006,0.6222,0.7941
+connector_density,4,0.0006,-0.0076,0.0138,0,0,0.0006,-0.0076,0.0027,0.5459,0.7501
+trace_length,5,0.0024,-0.003,0.0515,1,0,-0.0014,-0.003,0.012,0.6484,0.7744

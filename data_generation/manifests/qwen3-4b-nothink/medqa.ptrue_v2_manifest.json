@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-06-08T09:34:48Z",
+  "model": "Qwen/Qwen3-4B",
+  "model_short": "qwen3-4b-nothink",
+  "source_jsonl": "/home/dagmawi_aims_ac_za/datagen/data/generations/medqa_qwen3-4b-nothink.jsonl",
+  "n_records": 1000,
+  "ptrue_logprobs_k": 20,
+  "max_tokens": 4096,
+  "true_token_ids": [
+    2514,
+    3007,
+    1866,
+    830
+  ],
+  "false_token_ids": [
+    4049,
+    3557,
+    3849,
+    895
+  ],
+  "prompt_change": "literal 'True'/'False' (no '(A)/(B)' letter prefix)"
+}

@@ -1,0 +1,44 @@
+{
+  "started_at": "2026-06-03T14:14:55Z",
+  "model": "Qwen/Qwen3-4B",
+  "model_short": "qwen3-4b-nothink",
+  "dataset": "medqa",
+  "split": "test",
+  "n_questions": 995,
+  "seed": 42,
+  "sample_temp": 0.7,
+  "top_p": 0.95,
+  "n_samples": 10,
+  "max_tokens": 4096,
+  "logprobs_k": 5,
+  "ptrue_logprobs_k": 20,
+  "logprob_mode": "summary",
+  "force_think_prefix": false,
+  "enable_thinking_kw": true,
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "split_strategy": "inline_cot",
+  "true_token_ids": [
+    2514,
+    3007,
+    1866,
+    830,
+    32,
+    362,
+    4346
+  ],
+  "false_token_ids": [
+    4049,
+    3557,
+    3849,
+    895,
+    33,
+    425,
+    5349
+  ],
+  "finished_at": "2026-06-03T15:03:09Z",
+  "elapsed_seconds": 2893.628237247467,
+  "truncation_count": 103,
+  "parse_fail_count": 40
+}

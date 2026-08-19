@@ -1,0 +1,20 @@
+# ── Analysis pipeline (laptop-friendly, no GPU required) ──────────────
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14.0            # parquet IO
+scikit-learn>=1.3        # logistic regression, CV, metrics
+scipy>=1.10
+matplotlib>=3.7
+
+# ── Feature extraction — stage 3 only (GPU strongly recommended) ──────
+# Needed only if you re-extract features from raw generations.
+# The extracted feature tables are already included in
+# analysis_pipeline/data/features/, so most users can skip these.
+# sentence-transformers>=2.5   # BGE-M3 embedder for trace_divergence
+# torch>=2.1
+# transformers>=4.40           # DeBERTa-v3 NLI for TriviaQA semantic entropy
+
+# ── Data generation — stage 1 only (A100-class GPU required) ──────────
+# Needed only to regenerate the raw model outputs from scratch.
+# vllm>=0.4
+# datasets>=2.18

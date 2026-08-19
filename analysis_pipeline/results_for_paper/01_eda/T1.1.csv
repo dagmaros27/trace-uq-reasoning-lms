@@ -1,0 +1,15 @@
+dataset,model,n_total,n_truncated_greedy,n_clean,n_clean_and_labelled,greedy_accuracy_on_clean,mean_trace_length_sampled
+medqa,qwen3-4b,1000,101,740,740,0.7635,1754.0
+medqa,r1-distill-llama-8b,1000,75,796,792,0.5215,1595.2
+medqa,qwen3-4b-nothink,1000,34,926,926,0.6415,623.3
+medqa,llama-3.1-8b-instruct,1000,16,976,974,0.6509,416.0
+mmlu_pro,qwen3-4b,1000,187,730,730,0.7507,2468.1
+mmlu_pro,r1-distill-llama-8b,1000,243,614,599,0.4958,2329.9
+mmlu_pro,qwq-32b,1000,212,657,657,0.9041,2828.3
+mmlu_pro,qwen3-4b-nothink,1000,58,918,908,0.6586,678.8
+mmlu_pro,llama-3.1-8b-instruct,1000,152,733,731,0.5376,782.2
+trivia_qa,qwen3-4b,1000,65,915,915,0.4918,679.4
+trivia_qa,r1-distill-llama-8b,1000,24,944,944,0.3814,557.0
+trivia_qa,qwq-32b,1000,23,956,956,0.7144,821.8
+trivia_qa,qwen3-4b-nothink,1000,2,989,989,0.4186,69.5
+trivia_qa,llama-3.1-8b-instruct,1000,92,818,818,0.6259,273.1

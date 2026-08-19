@@ -1,0 +1,15 @@
+dataset,model,n,se_orientation,median_delta_auroc,ci_low,ci_high,pct_resamples_trace_wins
+medqa,qwen3-4b,740,-1,0.0935,0.0511,0.1334,100.0
+mmlu_pro,qwen3-4b,730,-1,0.0969,0.0518,0.1343,100.0
+trivia_qa,qwen3-4b,915,-1,-0.0442,-0.0652,-0.0234,0.0
+medqa,r1-distill-llama-8b,792,-1,-0.014,-0.0519,0.0269,24.8
+mmlu_pro,r1-distill-llama-8b,598,-1,-0.0321,-0.0762,0.0136,8.0
+trivia_qa,r1-distill-llama-8b,944,-1,-0.1004,-0.1279,-0.0751,0.0
+mmlu_pro,qwq-32b,657,-1,0.1467,0.0845,0.2156,100.0
+trivia_qa,qwq-32b,956,-1,-0.0486,-0.0797,-0.0175,0.0
+medqa,qwen3-4b-nothink,926,-1,-0.0428,-0.0828,-0.0044,1.7
+mmlu_pro,qwen3-4b-nothink,908,-1,-0.0698,-0.1075,-0.0321,0.0
+trivia_qa,qwen3-4b-nothink,989,-1,-0.0461,-0.0684,-0.0243,0.0
+medqa,llama-3.1-8b-instruct,974,-1,-0.1305,-0.1679,-0.0943,0.0
+mmlu_pro,llama-3.1-8b-instruct,731,-1,-0.1208,-0.1664,-0.0771,0.0
+trivia_qa,llama-3.1-8b-instruct,818,-1,-0.1437,-0.1808,-0.1057,0.0

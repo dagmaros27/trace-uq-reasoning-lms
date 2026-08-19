@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-06-01T21:48:33Z",
+  "model": "Qwen/Qwen3-4B",
+  "model_short": "qwen3-4b",
+  "dataset": "medqa",
+  "split": "test",
+  "n_questions": 995,
+  "seed": 42,
+  "sample_temp": 0.7,
+  "top_p": 0.95,
+  "n_samples": 10,
+  "max_tokens": 4096,
+  "logprobs_k": 5,
+  "ptrue_logprobs_k": 20,
+  "logprob_mode": "summary",
+  "force_think_prefix": false,
+  "true_token_ids": [
+    2514,
+    3007,
+    1866,
+    830,
+    32,
+    362,
+    4346
+  ],
+  "false_token_ids": [
+    4049,
+    3557,
+    3849,
+    895,
+    33,
+    425,
+    5349
+  ],
+  "finished_at": "2026-06-02T00:17:00Z",
+  "elapsed_seconds": 8906.356293439865,
+  "truncation_count": 877,
+  "parse_fail_count": 488
+}

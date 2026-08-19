@@ -1,0 +1,5 @@
+model_type,task_type,n_cells,n_cells_trace_beats_se,median_trace_minus_se_auroc,characterisation
+reasoning,mcq,5,3,0.0935,
+reasoning,free_form,3,0,-0.0486,
+non_reasoning,mcq,4,0,-0.0953,
+non_reasoning,free_form,2,0,-0.0949,
