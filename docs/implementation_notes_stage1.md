@@ -2,6 +2,7 @@
 
 Companion document to [`README_generation_pipeline.md`](README_generation_pipeline.md). That document is the *spec*; this one is the **record of what was actually built and decided**.
 
+
 Scope:
 - **Phase 1 (2026-06-02)** — MedQA generation for two **reasoning** models.
 - **Phase 2 (2026-06-03)** — MedQA generation for two **non-reasoning control** models (added later; see §1b).
